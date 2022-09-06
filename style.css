@@ -1,0 +1,9 @@
+.ideMain{
+    background-color: #33AABB;
+    color: #000000;
+
+    font-family: Helvetica;
+    font-weight: bold;
+
+    display: grid;
+}

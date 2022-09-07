@@ -7,3 +7,25 @@
 
     display: grid;
 }
+
+.buttonRed{
+    background-color: #000000;
+    color: #FF0000;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+
+    border-radius: 25px;
+}
+
+.buttonGreen{
+    background-color: #000000;
+    color: #32cd32;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+
+    border-radius: 25px;
+}

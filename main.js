@@ -9,3 +9,9 @@ function returnToIndex(){
 function goToPasswordInsert(){
     window.location.href = "passwordInsert.html";
 }
+
+function enterPassword(){
+    // Check to make sure that the password
+    // is correct. If so, go to the appropriate
+    // level
+}

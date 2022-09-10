@@ -17,4 +17,11 @@ to the game, including features like a "password" system to save
 progress.
 
 ```plantuml
+class Level1{
+
+}
+
+class Level2{
+    
+}
 ```

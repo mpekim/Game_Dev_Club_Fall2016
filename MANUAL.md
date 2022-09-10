@@ -18,10 +18,17 @@ progress.
 
 ```plantuml
 class Level1{
-
+    +method1()
+    
+    -attribute1
 }
 
 class Level2{
-    
+    +method2()
+
+    -attribute2
 }
+
+Level1 --down--> Level2
+Level2 --up-- Level1
 ```

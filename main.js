@@ -10,8 +10,20 @@ function goToPasswordInsert(){
     window.location.href = "passwordInsert.html";
 }
 
-function enterPassword(){
+function enterPassword(password){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate
     // level
+
+    switch (password){
+        case 1234:
+            gotToLevel1();
+            break;
+        default:
+            console.log("Sorry, password is incorrect. Please try again.");
+    }
+}
+
+function gotToLevel1(){
+    window.location.href = "level1.html"
 }

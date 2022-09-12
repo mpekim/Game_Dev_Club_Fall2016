@@ -17,6 +17,10 @@ to the game, including features like a "password" system to save
 progress.
 
 ```plantuml
+The classes shown below show the level structure of the game.
+So far it is intended to be a "one-way street" - the simplest
+style of game.
+
 class Level1{
     +method1()
     

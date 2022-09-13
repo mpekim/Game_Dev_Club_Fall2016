@@ -19,6 +19,12 @@ function enterPassword(password){
         case 1234:
             gotToLevel1();
             break;
+        case 4567:
+            break;
+        case 8675:
+            break;
+        case 0000:
+            break;
         default:
             console.log("Sorry, password is incorrect. Please try again.");
     }
@@ -26,4 +32,16 @@ function enterPassword(password){
 
 function gotToLevel1(){
     window.location.href = "level1.html"
+}
+
+function goToLevel2(){
+
+}
+
+function goToLevel3(){
+
+}
+
+function goToLevel4(){
+    
 }

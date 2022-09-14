@@ -20,28 +20,31 @@ function enterPassword(password){
             gotToLevel1();
             break;
         case 4567:
+            goToLevel2();
             break;
         case 8675:
+            goToLevel3();
             break;
         case 0000:
+            goToLevel4();
             break;
         default:
             console.log("Sorry, password is incorrect. Please try again.");
     }
 }
 
-function gotToLevel1(){
-    window.location.href = "level1.html"
+function goToLevel1(){
+    window.location.href = "level1.html";
 }
 
 function goToLevel2(){
-
+    window.location.href = "level2.html";
 }
 
 function goToLevel3(){
-
+    window.location.href = "level3.html";
 }
 
 function goToLevel4(){
-    
+    window.location.href = "level4.html";
 }

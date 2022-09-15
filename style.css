@@ -5,7 +5,8 @@
     font-family: Helvetica;
     font-weight: bold;
 
-    display: grid;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .buttonRed{
@@ -22,6 +23,39 @@
 .buttonGreen{
     background-color: #000000;
     color: #32cd32;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+
+    border-radius: 25px;
+}
+
+.buttonBlue{
+    background-color: #000000;
+    color: #0000FF;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+
+    border-radius: 25px;
+}
+
+.buttonYellow{
+    background-color: #000000;
+    color: #FFFF00;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+
+    border-radius: 25px;
+}
+
+.buttonOrange{
+    background-color: #000000;
+    color: #FF7700;
 
     font-family: Arial;
     font-style: italic;

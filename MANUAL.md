@@ -16,23 +16,37 @@ CSS and JS code will be used to provide imagery and functionality
 to the game, including features like a "password" system to save
 progress.
 
-```plantuml
 The classes shown below show the level structure of the game.
 So far it is intended to be a "one-way street" - the simplest
 style of game.
 
+```plantuml
+
 class Level1{
-    +method1()
+    +goToLevel1()
     
-    -attribute1
+    -password: int
 }
 
 class Level2{
-    +method2()
+    +goToLevel2()
 
-    -attribute2
+    -password: int
 }
 
-Level1 --down--> Level2
-Level2 --up-- Level1
+class Level3{
+    +goToLevel3()
+
+    -password: int
+}
+
+class Level4{
+    +goToLevel4()
+
+    -password: int
+}
+
+Level1 --right--> Level2
+Level2 --right--> Level3
+Level3 --right--> Level4
 ```

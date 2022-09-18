@@ -4,9 +4,6 @@
 
     font-family: Helvetica;
     font-weight: bold;
-
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .buttonRed{

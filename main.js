@@ -48,3 +48,7 @@ function goToLevel3(){
 function goToLevel4(){
     window.location.href = "level4.html";
 }
+
+function endGame(){
+    window.location.href = "endGame.html";
+}

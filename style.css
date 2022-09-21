@@ -60,3 +60,12 @@
 
     border-radius: 25px;
 }
+
+.flexContainer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexItem{
+
+}

@@ -28,6 +28,9 @@ function enterPassword(password){
         case 0000:
             goToLevel4();
             break;
+        case 5678:
+            endGame();
+            break;
         default:
             console.log("Sorry, password is incorrect. Please try again.");
     }

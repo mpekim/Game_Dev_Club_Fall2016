@@ -46,7 +46,12 @@ class Level4{
     -password: int
 }
 
+class EndGame{
+    +goToEndGame()
+}
+
 Level1 --right--> Level2
 Level2 --right--> Level3
 Level3 --right--> Level4
+Level4 --right--> EndGame
 ```

@@ -1,13 +1,17 @@
 function startProgram(){
     alert("Testing to ensure that the function works as intended.");
+    var url = "index.html";
+    window.location.href = url;
 }
 
 function returnToIndex(){
-    window.location.href = "index.html";
+    var url = "index.html";
+    window.location.href = url;
 }
 
 function goToPasswordInsert(){
-    window.location.href = "passwordInsert.html";
+    var url = "password.html";
+    window.location.href = url;
 }
 
 function enterPassword(password){

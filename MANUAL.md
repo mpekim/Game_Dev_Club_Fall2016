@@ -55,3 +55,10 @@ Level2 --right--> Level3
 Level3 --right--> Level4
 Level4 --right--> EndGame
 ```
+## PROGRAMMING TECHNIQUES
+
+The following programming techniques have been used in order to make
+this game possible:
+- Classes (CSS)
+- Functions (JS)
+- Bash Scripts

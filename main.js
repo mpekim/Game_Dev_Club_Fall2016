@@ -10,7 +10,7 @@ function returnToIndex(){
 }
 
 function goToPasswordInsert(){
-    var url = "password.html";
+    var url = "passwordInsert.html";
     window.location.href = url;
 }
 
@@ -41,21 +41,26 @@ function enterPassword(password){
 }
 
 function goToLevel1(){
-    window.location.href = "level1.html";
+    var url = "level1.html";
+    window.location.href = url;
 }
 
 function goToLevel2(){
-    window.location.href = "level2.html";
+    var url = "level2.html";
+    window.location.href = url;
 }
 
 function goToLevel3(){
-    window.location.href = "level3.html";
+    var url = "level3.html";
+    window.location.href = url;
 }
 
 function goToLevel4(){
-    window.location.href = "level4.html";
+    var url = "level4.html";
+    window.location.href = url;
 }
 
 function endGame(){
-    window.location.href = "endGame.html";
+    var url = "endGame.html";
+    window.location.href = url;
 }

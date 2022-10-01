@@ -64,3 +64,9 @@ function endGame(){
     var url = "endGame.html";
     window.location.href = url;
 }
+
+function goToWrong()
+{
+    var url = "wrong.html";
+    window.location.href = url;
+}

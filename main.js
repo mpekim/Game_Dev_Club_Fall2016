@@ -1,3 +1,10 @@
+class User{
+    constructor(username, password){
+        this.username = username;
+        this.password = password;
+    }
+}
+
 function startProgram(){
     alert("Testing to ensure that the function works as intended.");
     var url = "index.html";

@@ -3,7 +3,21 @@ class User{
         this.username = username;
         this.password = password;
     }
+
+    getUsername(){
+        console.log(this.username);
+    }
+    
+    getPassword(){
+        console.log(this.password);
+    }
+
+    presentUser(){
+        console.log("Username: " + this.username);
+        console.log("Password: " + this.password);
+    }
 }
+// Class for User data.
 
 function startProgram(){
     alert("Testing to ensure that the function works as intended.");
@@ -14,6 +28,9 @@ function startProgram(){
 function returnToIndex(){
     var url = "index.html";
     window.location.href = url;
+
+    const user1 = new User("Mike", 1234);
+    user1.presentUser();
 }
 
 function goToPasswordInsert(){

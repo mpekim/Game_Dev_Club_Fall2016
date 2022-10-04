@@ -24,24 +24,28 @@ style of game.
 
 class Level1{
     +goToLevel1()
+    +goToWrong()
     
     -password: int
 }
 
 class Level2{
     +goToLevel2()
+    +goToWrong()
 
     -password: int
 }
 
 class Level3{
     +goToLevel3()
+    +goToWrong()
 
     -password: int
 }
 
 class Level4{
     +goToLevel4()
+    +goToWrong()ks
 
     -password: int
 }
@@ -51,9 +55,13 @@ class EndGame{
 }
 
 Level1 --right--> Level2
+Level1 --up--> Wrong
 Level2 --right--> Level3
+Level2 --up--> Wrong
 Level3 --right--> Level4
+Level3 --up--> Wrong
 Level4 --right--> EndGame
+Level4 --up--> Wrong
 ```
 ## PROGRAMMING TECHNIQUES
 

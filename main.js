@@ -1,7 +1,8 @@
 class User{
-    constructor(username, password){
+    constructor(username, password, lives){
         this.username = username;
         this.password = password;
+        this.lives = lives;
     }
 
     getUsername(){
@@ -12,6 +13,10 @@ class User{
         console.log(this.password);
     }
 
+    getLives(){
+        console.log(this.lives);
+    }
+
     setUsername(newUsername){
         this.username = newUsername;
     }
@@ -20,9 +25,14 @@ class User{
         this.password = newPassword;
     }
 
+    setLives(newLives){
+        this.lives = newLives;
+    }
+
     presentUser(){
         console.log("Username: " + this.username);
         console.log("Password: " + this.password);
+        console.log("Lives Left: " + this.lives);
     }
 }
 // Class for User data.

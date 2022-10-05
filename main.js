@@ -12,6 +12,14 @@ class User{
         console.log(this.password);
     }
 
+    setUsername(newUsername){
+        this.username = newUsername;
+    }
+
+    setPassword(newPassword){
+        this.password = newPassword;
+    }
+
     presentUser(){
         console.log("Username: " + this.username);
         console.log("Password: " + this.password);

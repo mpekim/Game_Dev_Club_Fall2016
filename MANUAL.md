@@ -67,6 +67,11 @@ Level4 --up--> Wrong
 
 The following programming techniques have been used in order to make
 this game possible:
-- Classes (CSS)
-- Functions (JS)
-- Bash Scripts
+*CSS*
+- Classes
+*JS*
+- Functions
+*Bash*
+- Scripts
+*HTML*
+- Button Code

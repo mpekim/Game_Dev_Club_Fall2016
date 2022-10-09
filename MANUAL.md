@@ -8,6 +8,10 @@ However, it was quite literally untouched for about 5 years.
 I intend to "revive" the repository as the blueprint for a basic game made
 using web design code (HTML, CSS, JS).
 
+As of 10/8/22, the repository consists of a small, yet functional
+"quiz-based" game. Every answer must be correct in order to reach
+the "EndGame" (in other words, one incorrect answer ends the game).
+
 ## GAME DESIGN
 
 As of right now, I plan on the game being as a "text-based adventure", using HTML files to traverse between levels.

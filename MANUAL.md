@@ -71,11 +71,21 @@ Level4 --up--> Wrong
 
 The following programming techniques have been used in order to make
 this game possible:
+
 *CSS*
 - Classes
+
 *JS*
 - Functions
+
 *Bash*
 - Scripts
+
 *HTML*
 - Button Code
+- Links to JS.
+
+*PlantUML*
+- Classes
+- Arrows
+- Attributes/Methods

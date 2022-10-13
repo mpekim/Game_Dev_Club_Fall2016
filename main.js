@@ -112,3 +112,7 @@ function goToWrong()
     var url = "wrong.html";
     window.location.href = url;
 }
+
+function testMode(){
+
+}

@@ -74,4 +74,5 @@
 
 .flexItem{
     border: solid;
+    flex: 0 1 auto;
 }

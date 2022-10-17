@@ -115,4 +115,6 @@ function goToWrong()
 
 function testMode(){
     // Add code here.
+    const bob = new User("Bob", 8675, 3);
+    bob.presentUser();
 }

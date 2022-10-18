@@ -69,10 +69,11 @@
 
 .flexContainer{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+
 }
 
 .flexItem{
     border: solid;
-    flex: 0 1 auto;
+    flex: 0 1 25%;
 }

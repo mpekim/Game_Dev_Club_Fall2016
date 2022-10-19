@@ -67,13 +67,25 @@
     border-radius: 25px;
 }
 
-.flexContainer{
-    display: flex;
-    flex-direction: column;
-
+.gridContainer{
+    display: grid;
+    grid-template-areas:
+    "gridItem2 gridItem1"
+    "title title";
 }
 
-.flexItem{
+.gridItem1{
+    grid-area: "gridItem1";
     border: solid;
-    flex: 0 1 25%;
+    width: 100%;
+}
+
+.gridItem2{
+    grid-area: "gridItem2";
+    border: solid;
+    width: 100%;
+}
+
+.title{
+    grid-area: "title";
 }

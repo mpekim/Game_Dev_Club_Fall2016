@@ -117,4 +117,7 @@ function testMode(){
     // Add code here.
     const bob = new User("Bob", 8675, 3);
     bob.presentUser();
+    console.log("Testing getUsername: " + bob.getUsername());
+    console.log("Testing getPassword: " + bob.getPassword());
+    console.log("Testing getLives: " + bob.getLives());
 }

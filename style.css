@@ -69,23 +69,25 @@
 
 .gridContainer{
     display: grid;
+    grid: 25% 4fr/ 25% 4fr;
     grid-template-areas:
-    "gridItem2 gridItem1"
-    "title title";
+    ". title title ."
+    ". . . gridItem1"
+    "gridItem2 . . .";
 }
 
 .gridItem1{
-    grid-area: "gridItem1";
+    grid-area: gridItem1;
     border: solid;
     width: 100%;
 }
 
 .gridItem2{
-    grid-area: "gridItem2";
+    grid-area: gridItem2;
     border: solid;
     width: 100%;
 }
 
 .title{
-    grid-area: "title";
+    grid-area: title;
 }

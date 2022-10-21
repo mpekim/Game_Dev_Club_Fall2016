@@ -71,7 +71,7 @@
     display: grid;
     grid: 25% 4fr/ 25% 4fr;
     grid-template-areas:
-    ". title title ."
+    ". title title lives"
     ". . . gridItem1"
     "gridItem2 . . .";
 }
@@ -90,4 +90,15 @@
 
 .title{
     grid-area: title;
+}
+
+.lives{
+    grid-area: lives;
+
+    border: solid;
+
+    color: #32cd32;
+    background-color: #000000;
+
+    border-radius: 45px;
 }

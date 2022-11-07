@@ -74,9 +74,11 @@ this game possible:
 
 *CSS*
 - Classes
+- Attributes/Values
 
 *JS*
 - Functions
+- Classes
 
 *Bash*
 - Scripts
@@ -84,6 +86,7 @@ this game possible:
 *HTML*
 - Button Code
 - Links to JS.
+- Comments
 
 *PlantUML*
 - Classes

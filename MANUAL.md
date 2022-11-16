@@ -92,3 +92,4 @@ this game possible:
 - Classes
 - Arrows
 - Attributes/Methods
+- Notes

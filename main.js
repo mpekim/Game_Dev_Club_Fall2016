@@ -113,10 +113,12 @@ function goToWrong()
     window.location.href = url;
 }
 
-function testMode(){
-    // Add code here.
+function testMode()
+{
     const bob = new User("Bob", 8675, 3);
+    const steve = new User("Steve", 3091, 2);
     bob.presentUser();
+
     console.log("Testing getUsername: " + bob.getUsername());
     console.log("Testing getPassword: " + bob.getPassword());
     console.log("Testing getLives: " + bob.getLives());

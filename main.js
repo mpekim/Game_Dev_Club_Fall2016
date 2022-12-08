@@ -38,7 +38,7 @@ class User{
 // Class for User data.
 
 function startProgram(){
-    alert("Testing to ensure that the function works as intended.");
+   // alert("Testing to ensure that the function works as intended.");
     var url = "index.html";
     window.location.href = url;
 }
@@ -47,8 +47,8 @@ function returnToIndex(){
     var url = "index.html";
     window.location.href = url;
 
-    const user1 = new User("Mike", 1234);
-    user1.presentUser();
+    //const user1 = new User("Mike", 1234);
+    //user1.presentUser();
 }
 
 function goToPasswordInsert(){

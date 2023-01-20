@@ -79,6 +79,7 @@ this game possible:
 *JS*
 - Functions
 - Classes
+- DOM (Document Object Model)
 
 *Bash*
 - Scripts

@@ -46,9 +46,6 @@ function startProgram(){
 function returnToIndex(){
     var url = "index.html";
     window.location.href = url;
-
-    //const user1 = new User("Mike", 1234);
-    //user1.presentUser();
 }
 
 function goToPasswordInsert(){

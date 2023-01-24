@@ -77,6 +77,7 @@ function enterPassword(password){
         default:
             console.log("Sorry, password is incorrect. Please try again.");
     }
+    // Switch case for passwords.
 }
 
 function goToLevel1(){

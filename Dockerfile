@@ -1,2 +1,2 @@
-FROM
-RUN
+FROM alpine
+ 

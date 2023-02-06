@@ -1,3 +1,6 @@
 This file will be used for saved game data.
 At this time, there will only be one user
 profile per game.
+
+Profile:
+Level Password:

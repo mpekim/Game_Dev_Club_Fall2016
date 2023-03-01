@@ -55,7 +55,7 @@ function goToPasswordInsert(){
 
 // Pre-Condition: This function accepts an int argument (the password).
 // Post-Condition: The user will be taken to the correct level based
-// on password input.
+// on password input.ks
 function enterPassword(password){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate
@@ -63,7 +63,7 @@ function enterPassword(password){
 
     switch (password){
         case 1234:
-            gotToLevel1();
+            goToLevel1();
             break;
         case 4567:
             goToLevel2();
@@ -83,6 +83,7 @@ function enterPassword(password){
     // Switch case for passwords.
 }
 
+// All level functions have the same structure.
 function goToLevel1(){
     var url = "level1.html";
     window.location.href = url;

@@ -4,3 +4,10 @@ profile per game.
 
 Profile: "Mike"
 Level Password: 1234
+
+AS JSON Object.
+
+{ 
+"name" : "Mike",
+"Password" : "1234" 
+}

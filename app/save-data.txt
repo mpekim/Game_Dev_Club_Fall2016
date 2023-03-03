@@ -9,5 +9,10 @@ AS JSON Object.
 
 { 
 "name" : "Mike",
-"Password" : "1234" 
+"password" : "1234" 
+}
+
+{
+    "name" : "Joe",
+    "password" : "5678"
 }

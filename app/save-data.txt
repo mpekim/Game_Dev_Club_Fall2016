@@ -11,7 +11,7 @@ AS JSON Object.
 "name" : "Mike",
 "password" : "1234" 
 }
-
+,
 {
     "name" : "Joe",
     "password" : "5678"

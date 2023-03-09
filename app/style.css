@@ -12,6 +12,11 @@
     text-align: center;
 }
 
+.fontPuzzle{
+    font-family: Helvetica;
+    font-style: italic;
+}
+
 .buttonRed{
     background-color: #000000;
     color: #FF0000;

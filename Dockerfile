@@ -1,4 +1,6 @@
-FROM node:18-alpine AS app-base
-FROM app-base AS test
-RUN yarn install
-RUN yarn test
+# Dockerfile
+
+FROM ubuntu:20.04
+RUN apt update && apt install -y sbcl
+
+WORKDIR /usr/src

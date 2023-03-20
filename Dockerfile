@@ -5,4 +5,5 @@ RUN apt update && apt install -y sbcl
 
 WORKDIR /app
 
-EXPOSE 10001
+EXPOSE 9999
+COPY ./app/index.html ../

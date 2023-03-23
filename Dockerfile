@@ -7,3 +7,4 @@ WORKDIR /app
 
 EXPOSE 9999
 COPY ./app/index.html ..
+COPY ./app/main.js ..

@@ -1,3 +1,6 @@
+const express = require('express');
+const app = express.app;
+
 class User{
     constructor(username, password, lives){
         this.username = username;

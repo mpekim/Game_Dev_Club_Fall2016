@@ -21,3 +21,4 @@ ENV PATH $PATH:$JAVA_HOME/bin
 RUN javac HelloWorld.java
 
 ENTRYPOINT java HelloWorld
+# Based on tutorial from YouTube video (link offered soon)

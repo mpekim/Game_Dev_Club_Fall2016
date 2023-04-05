@@ -16,7 +16,3 @@ AS JSON Object.
     "name" : "Joe",
     "password" : "5678"
 }
-,
-{
-
-}

@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express.app;
+// Setting up express app.
+// More code to come.
 
 class User{
     constructor(username, password, lives){

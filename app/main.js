@@ -120,6 +120,8 @@ function goToWrong()
     window.location.href = url;
 }
 
+// Pre-Condition: This function accepts no parameters.
+// Post-Condition: Function will create two objects and test them.
 function testMode()
 {
     const bob = new User("Bob", 8675, 3);

@@ -89,6 +89,9 @@ function enterPassword(password){
 }
 
 // All level functions have the same structure.
+// Pre-Condition: These functions accepts no arguments.
+// Post-Condition: All functions will go to their intended
+// locations.
 function goToLevel1(){
     var url = "level1.html";
     window.location.href = url;

@@ -18,7 +18,7 @@ As of right now, I plan on the game being as a "text-based adventure", using HTM
 
 CSS and JS code will be used to provide imagery and functionality
 to the game, including features like a "password" system to save
-progress.
+progress. (JS Functionality for passwords will use forms).
 
 The classes shown below show the level structure of the game.
 So far it is intended to be a "one-way street" - the simplest

@@ -33,6 +33,7 @@ class User{
     setLives(newLives){
         this.lives = newLives;
     }
+    // Accessor and Mutator functions.
 
     presentUser(){
         console.log("Username: " + this.username);

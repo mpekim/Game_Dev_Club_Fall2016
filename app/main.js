@@ -65,7 +65,7 @@ function goToPasswordInsert(){
 function enterPassword(password){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate
-    // level
+    // level.
 
     switch (password){
         case 1234:
@@ -77,7 +77,7 @@ function enterPassword(password){
         case 8675:
             goToLevel3();
             break;
-        case 0000:
+        case 0:
             goToLevel4();
             break;
         case 5678:

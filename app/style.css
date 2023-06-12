@@ -74,11 +74,12 @@
 
 .gridContainer{
     display: grid;
-    grid: 25% 4fr/ 25% 4fr;
+    grid: 50% 10fr / 100% 10fr;
     grid-template-areas:
-    ". title title lives"
-    ". . . gridItem1"
-    "gridItem2 . . .";
+    "title title"
+    "lives lives"
+    "gridItem1 gridItem1"
+    "gridItem2 gridItem2";
 }
 
 .gridItem1{

@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express.app;
+//const express = require('express');
+//const app = express.app;
 // Setting up express app.
 // More code to come.
 
@@ -66,25 +66,26 @@ function enterPassword(password){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate
     // level.
-
     switch (password){
-        case 1234:
+        case "1234":
             goToLevel1();
             break;
-        case 4567:
+        case "4567":
             goToLevel2();
             break;
-        case 8675:
+        case "8675":
             goToLevel3();
             break;
-        case 0:
+        case "0000":
             goToLevel4();
             break;
-        case 5678:
+        case "5678":
             endGame();
             break;
         default:
-            console.log("Sorry, password is incorrect. Please try again.");
+            const errScreen = document.querySelector("#err");
+
+            errScreen.appendChild(createPasswordError("Error: Invalid Password."));
     }
     // Switch case for passwords.
 }
@@ -135,4 +136,10 @@ function testMode()
     console.log("Testing getUsername: " + bob.getUsername());
     console.log("Testing getPassword: " + bob.getPassword());
     console.log("Testing getLives: " + bob.getLives());
+}
+
+function createPasswordError(error){
+    let item = document.createElement('p');
+    item.textContent = error;
+    return item;
 }

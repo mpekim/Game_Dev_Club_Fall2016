@@ -9,5 +9,6 @@ class HelloWorld{
 
         System.out.println("That value was: " + number);
         //input.close();
+        // Figure out how to get the Scanner to work.
     }
 }

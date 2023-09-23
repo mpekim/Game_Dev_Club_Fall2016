@@ -11,15 +11,15 @@ class User{
     }
 
     getUsername(){
-        console.log(this.username);
+       return this.username;
     }
     
     getPassword(){
-        console.log(this.password);
+        return this.password;
     }
 
     getLives(){
-        console.log(this.lives);
+        return this.lives;
     }
 
     setUsername(newUsername){

@@ -1,6 +1,11 @@
-## WELCOME
+# TABLE OF CONTENTS
+- [Welcome](#welcome)
+- [Game Design](#game-design)
+- [Programming Techniques](#programming-techniques)
 
-Welcome to the re-purposed *Game Dev Club Fall 2016* repository.
+# WELCOME
+
+Welcome to the re-purposed ***Game Dev Club Fall 2016*** repository.
 
 This was likely one of the first repositories I had ever made on Github or Gitlab.
 However, it was quite literally untouched for about 5 years.
@@ -12,7 +17,7 @@ As of 10/8/22, the repository consists of a small, yet functional
 "quiz-based" game. Every answer must be correct in order to reach
 the "EndGame" (in other words, one incorrect answer ends the game).
 
-## GAME DESIGN
+# GAME DESIGN
 
 As of right now, I plan on the game being as a "text-based adventure", using HTML files to traverse between levels.
 
@@ -67,34 +72,35 @@ Level3 --up--> Wrong
 Level4 --right--> EndGame
 Level4 --up--> Wrong
 ```
-## PROGRAMMING TECHNIQUES
+# PROGRAMMING TECHNIQUES
 
 The following programming techniques have been used in order to make
 this game possible:
 
-*CSS*
+***CSS***
 - Classes
 - Attributes/Values
 
-*JS*
+***JS***
 - Functions
 - Classes
 - DOM (Document Object Model)
 
-*Bash*
+***Bash***
 - Scripts
+- Functions
 
-*HTML*
+***HTML***
 - Button Code
 - Links to JS.
 - Comments
 
-*PlantUML*
+***PlantUML***
 - Classes
 - Arrows
 - Attributes/Methods
 - Notes
 
-*Docker*
+***Docker***
 - Containers
 - Dockerfiles

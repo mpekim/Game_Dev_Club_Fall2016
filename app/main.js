@@ -43,22 +43,6 @@ class User{
 }
 // Class for User data.
 
-function startProgram(){
-   // alert("Testing to ensure that the function works as intended.");
-    var url = "index.html";
-    window.location.href = url;
-}
-
-function returnToIndex(){
-    var url = "index.html";
-    window.location.href = url;
-}
-
-function goToPasswordInsert(){
-    var url = "passwordInsert.html";
-    window.location.href = url;
-}
-
 // Pre-Condition: This function accepts an int argument (the password).
 // Post-Condition: The user will be taken to the correct level based
 // on password input.ks
@@ -90,39 +74,13 @@ function enterPassword(password){
     // Switch case for passwords.
 }
 
-// All level functions have the same structure.
-// Pre-Condition: These functions accepts no arguments.
-// Post-Condition: All functions will go to their intended
-// locations.
-function goToLevel1(){
-    var url = "level1.html";
-    window.location.href = url;
-}
+function enterUsername(username){
+    const player1 = new User(username, "1234", 3);
 
-function goToLevel2(){
-    var url = "level2.html";
-    window.location.href = url;
-}
+    const userScreen = document.querySelector("#user");
 
-function goToLevel3(){
-    var url = "level3.html";
-    window.location.href = url;
-}
-
-function goToLevel4(){
-    var url = "level4.html";
-    window.location.href = url;
-}
-
-function endGame(){
-    var url = "endGame.html";
-    window.location.href = url;
-}
-
-function goToWrong()
-{
-    var url = "wrong.html";
-    window.location.href = url;
+    userScreen.appendChild(createUserNotify("User created!"));
+    userScreen.appendChild(createUserNotify(player1.getUsername()));
 }
 
 // Pre-Condition: This function accepts no parameters.
@@ -141,5 +99,11 @@ function testMode()
 function createPasswordError(error){
     let item = document.createElement('p');
     item.textContent = error;
+    return item;
+}
+
+function createUserNotify(username){
+    let item = document.createElement('h1');
+    item.textContent = username;
     return item;
 }

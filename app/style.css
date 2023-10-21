@@ -17,7 +17,7 @@
     font-style: italic;
 }
 
-.buttonRed{
+div.ideMain button.buttonRed{
     background-color: #000000;
     color: #FF0000;
 
@@ -28,7 +28,7 @@
     border-radius: 25px;
 }
 
-.buttonGreen{
+div.ideMain button.buttonGreen{
     background-color: #000000;
     color: #32cd32;
 
@@ -94,12 +94,11 @@
 }
 
 .lives{
+    background-color: #000000;
+    color: #32cd32;
+
     grid-area: lives;
 
     border: solid;
-
-    color: #32cd32;
-    background-color: #000000;
-
     border-radius: 45px;
 }

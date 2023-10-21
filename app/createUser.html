@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <script type = "text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="portal.js"></script>
+    </head>
+    <body>
+        <div class="ideMain" id="user">
+            <h1>Enter Username</h1>
+            <p>Please enter your name: </p>
+            <input type="text" id="input_username" placeholder="Enter name here">
+            <button class="buttonGreen" value="Submit Username" onclick="enterUsername(document.getElementById('input_username').value)">Set Username</button>
+            <button class="buttonRed" onclick="returnToIndex()">Return to Main Menu</button>
+        </div>
+    </body>
+</html>

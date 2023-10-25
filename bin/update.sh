@@ -1,6 +1,6 @@
 # Bash script to perform all commit steps in one go.
 
-$branch_name = "master"
+branch_name = "master"
 echo "Preparing to update latest commit..."
 
 git add .

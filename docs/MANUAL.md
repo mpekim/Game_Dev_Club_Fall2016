@@ -92,7 +92,7 @@ this game possible:
 
 ***HTML***
 - Button Code
-- Links to JS.
+- Links to JS
 - Comments
 
 ***PlantUML***

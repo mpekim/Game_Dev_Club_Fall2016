@@ -1,5 +1,6 @@
 # Find out better way to make status script.
-run_status() {
+run_status() 
+{
     echo "Checking status of containers and images..."
     docker ps -a
     docker images

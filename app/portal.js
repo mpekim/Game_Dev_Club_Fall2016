@@ -29,7 +29,7 @@ function endGame(){
     window.location.href = url;
 }
 
-function goToWrong()
+function goToWrong(number)
 {
     var url = "wrong.html";
     window.location.href = url;

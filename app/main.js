@@ -83,6 +83,11 @@ function enterUsername(username){
     userScreen.appendChild(createUserNotify(player1.getUsername()));
 }
 
+function gameOverPassword(){
+    const password = document.querySelector("#ideMain");
+    password.appendChild(createPasswordError("1234"));
+}
+
 // Pre-Condition: This function accepts no parameters.
 // Post-Condition: Function will create two objects and test them.
 function testMode()

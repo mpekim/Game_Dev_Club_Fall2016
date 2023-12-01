@@ -10,6 +10,8 @@
     border-radius: 45px;
 
     text-align: center;
+    margin: auto;
+    width: 450px;
 }
 
 .fontPuzzle{
@@ -70,6 +72,26 @@ div.ideMain button.buttonGreen{
     font-weight: bold;
 
     border-radius: 25px;
+}
+
+img.puzzle{
+    border-radius: 45px;
+}
+
+@media(prefers-reduced-motion: no-preference){
+    img.winner{
+        animation: winner-spin infinite 5s linear;
+        border-radius: 45px;
+    }
+}
+
+@keyframes winner-spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .gridContainer{

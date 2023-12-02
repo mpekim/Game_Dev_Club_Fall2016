@@ -76,6 +76,8 @@ div.ideMain button.buttonGreen{
 
 img.puzzle{
     border-radius: 45px;
+    width: 400px;
+    height: 200px;
 }
 
 @media(prefers-reduced-motion: no-preference){
@@ -91,6 +93,7 @@ img.puzzle{
     }
     to{
         transform: rotate(360deg);
+
     }
 }
 

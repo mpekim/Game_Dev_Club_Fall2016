@@ -7,7 +7,6 @@
 
     border: solid;
     border-color: #000000;
-    border-radius: 45px;
 
     text-align: center;
     margin: auto;
@@ -19,6 +18,12 @@
     font-style: italic;
 }
 
+div.ideMain ol{
+    margin: auto;
+    width: 150px;
+}
+
+/*Button code.*/
 div.ideMain button.buttonRed{
     background-color: #000000;
     color: #FF0000;
@@ -27,7 +32,6 @@ div.ideMain button.buttonRed{
     font-style: italic;
     font-weight: bold;
 
-    border-radius: 25px;
 }
 
 div.ideMain button.buttonGreen{
@@ -37,11 +41,9 @@ div.ideMain button.buttonGreen{
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
-
-    border-radius: 25px;
 }
 
-.buttonBlue{
+div.ideMain button.buttonBlue{
     background-color: #000000;
     color: #0000FF;
 
@@ -49,10 +51,9 @@ div.ideMain button.buttonGreen{
     font-style: italic;
     font-weight: bold;
 
-    border-radius: 25px;
 }
 
-.buttonYellow{
+div.ideMain button.buttonYellow{
     background-color: #000000;
     color: #FFFF00;
 
@@ -60,10 +61,9 @@ div.ideMain button.buttonGreen{
     font-style: italic;
     font-weight: bold;
 
-    border-radius: 25px;
 }
 
-.buttonOrange{
+div.ideMain button.buttonOrange{
     background-color: #000000;
     color: #FF7700;
 
@@ -71,11 +71,9 @@ div.ideMain button.buttonGreen{
     font-style: italic;
     font-weight: bold;
 
-    border-radius: 25px;
 }
 
 img.puzzle{
-    border-radius: 45px;
     width: 400px;
     height: 200px;
 }
@@ -86,18 +84,20 @@ img.winner{
 
 @media(prefers-reduced-motion: no-preference){
     img.winner{
-        animation: winner-spin infinite 5s linear;
+        animation: winner-move infinite 5s linear;
         border-radius: 20px;
     }
 }
 
-@keyframes winner-spin{
-    from{
-        transform: rotate(0deg);
+@keyframes winner-move{
+    0% {
+        transform: translate(-50px);
     }
-    to{
-        transform: rotate(360deg);
-
+    50% {
+        transform: translate(50px);
+    }
+    100% {
+        transform: translate(-50px);
     }
 }
 
@@ -129,5 +129,7 @@ img.winner{
     grid-area: lives;
 
     border: solid;
-    border-radius: 45px;
+
+    width: 100px;
+    margin: auto;
 }

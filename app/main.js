@@ -81,6 +81,8 @@ function enterUsername(username){
 
     userScreen.appendChild(createUserNotify("User created!"));
     userScreen.appendChild(createUserNotify(player1.getUsername()));
+
+    return player1;
 }
 
 function gameOverPassword(){

@@ -10,12 +10,15 @@
         <div class="ideMain">
             <h1>Level 3</h1>
             <p class="fontPuzzle">Find the missing item in this image.</p>
-            <img src="../puzzle2.jpg" alt="Level 3 image missing.">
-            <ol class="lives">
+            <img class="puzzle" src="../puzzle2.jpg" alt="Level 3 image missing.">
+            <ol>
                 <li>There is no letter 'K'.</li>
                 <li>There is no letter 'C'.</li>
                 <li>There is no letter 'B'.</li>
             </ol>
+            <div class="lives" id="lives">
+                Lives Left: 
+            </div>
             <button class="buttonOrange" onclick="goToWrong()">1.</button>
             <button class="buttonGreen" onclick="goToLevel4()">2.</button>
             <button class="buttonYellow" onclick="goToWrong()">3.</button>

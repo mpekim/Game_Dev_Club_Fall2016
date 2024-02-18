@@ -80,11 +80,13 @@ this game possible:
 ***CSS***
 - Classes
 - Attributes/Values
+- Keyframes
 
 ***JS***
 - Functions
 - Classes
 - DOM (Document Object Model)
+- ES6
 
 ***Bash***
 - Scripts
@@ -94,6 +96,7 @@ this game possible:
 - Button Code
 - Links to JS
 - Comments
+- Metadata
 
 ***PlantUML***
 - Classes

@@ -20,6 +20,9 @@ the "EndGame" (in other words, one incorrect answer ends the game).
 # GAME DESIGN
 
 As of right now, I plan on the game being as a "text-based adventure", using HTML files to traverse between levels.
+There are two forms of data within the game:
+- Users (made with JS classes)
+- Passwords (provided at the end of each level).
 
 CSS and JS code will be used to provide imagery and functionality
 to the game, including features like a "password" system to save

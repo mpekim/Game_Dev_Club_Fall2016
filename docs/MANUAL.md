@@ -14,15 +14,16 @@ I intend to "revive" the repository as the blueprint for a basic game made
 using web design code (HTML, CSS, JS).
 
 As of 10/8/22, the repository consists of a small, yet functional
-"quiz-based" game. Every answer must be correct in order to reach
+"quiz-based" game. 
+Every answer must be correct in order to reach
 the "EndGame" (in other words, one incorrect answer ends the game).
 
 # GAME DESIGN
 
-As of right now, I plan on the game being as a "text-based adventure", using HTML files to traverse between levels.
+As of right now, I plan on the game being as a *text-based adventure*, using HTML files to traverse between levels.
 There are two forms of data within the game:
-- Users (made with JS classes)
-- Passwords (provided at the end of each level).
+- *Users (made with JS classes)*
+- *Passwords (provided at the end of each level)*
 
 CSS and JS code will be used to provide imagery and functionality
 to the game, including features like a "password" system to save

@@ -88,6 +88,7 @@ function enterUsername(username){
 function gameOverPassword(){
     const password = document.querySelector("#ideMain");
     password.appendChild(createPasswordError("1234"));
+    // Use the .html file name as an argument for the generated password.
 }
 
 // Pre-Condition: This function accepts no parameters.

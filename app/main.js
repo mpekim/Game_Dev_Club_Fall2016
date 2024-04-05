@@ -46,10 +46,12 @@ class User{
 // Pre-Condition: This function accepts an int argument (the password).
 // Post-Condition: The user will be taken to the correct level based
 // on password input.ks
-function enterPassword(password){
+function enterPassword(){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate
     // level.
+    let password = document.getElementById('input_password').value;
+
     switch (password){
         case "1234":
             goToLevel1();
@@ -67,11 +69,13 @@ function enterPassword(password){
             endGame();
             break;
         default:
-            const errScreen = document.querySelector("#err");
+            const errScreen = document.getElementById('hidden');
+            errScreen.textContent = "Error: Invalid password.";
 
-            errScreen.appendChild(createPasswordError("Error: Invalid Password."));
+            //errScreen.appendChild(createPasswordError("Error: Invalid Password."));
     }
     // Switch case for passwords.
+    return (false);
 }
 
 function enterUsername(username){
@@ -85,9 +89,21 @@ function enterUsername(username){
     return player1;
 }
 
-function gameOverPassword(){
-    const password = document.querySelector("#ideMain");
-    password.appendChild(createPasswordError("1234"));
+function gameOverPassword(level){
+    let password = document.getElementById('hidden');
+    
+    switch(level)
+    {
+        case "wrong.html":
+            password.textContent = "5678";
+            break;
+        case "level2.html":
+            break;
+        case "level3.html":
+            break;
+        case "level4.html":
+            break;
+    }
     // Use the .html file name as an argument for the generated password.
 }
 

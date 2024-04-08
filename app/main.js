@@ -81,10 +81,9 @@ function enterPassword(){
 function enterUsername(username){
     const player1 = new User(username, "1234", 3);
 
-    const userScreen = document.querySelector("#user");
+    const userScreen = document.getElementById('user-text');
 
-    userScreen.appendChild(createUserNotify("User created!"));
-    userScreen.appendChild(createUserNotify(player1.getUsername()));
+    userScreen.textContent = "User Created!\n" + player1.getUsername();
 
     return player1;
 }

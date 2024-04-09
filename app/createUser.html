@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mike Morley">
+        
         <link href="style.css" rel="stylesheet" type="text/css" />
 
         <script type = "text/javascript" src="main.js"></script>
@@ -12,8 +15,7 @@
             <p>Please enter your name: </p>
             <input type="text" id="input_username" placeholder="Enter name here">
             <button class="buttonGreen" value="Submit Username" onclick="enterUsername(document.getElementById('input_username').value)">Set Username</button>
-            <br>
-            <br>
+            <p id="user-text"></p>
             <button class="buttonBlue" onclick="goToLevel1()">Start</button>
             <button class="buttonRed" onclick="returnToIndex()">Return to Main Menu</button>
         </div>

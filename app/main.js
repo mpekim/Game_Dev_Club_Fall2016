@@ -130,3 +130,9 @@ function createUserNotify(username){
     item.textContent = username;
     return item;
 }
+// Function declarations.
+
+let getLives = () => {
+    let lives = document.getElementById('lives');
+    lives.textContent = "Lives Left: ";
+}

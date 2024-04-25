@@ -6,13 +6,17 @@
         
         <link href="style.css" rel="stylesheet" type="text/css" />
 
-        <script type = "text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="portal.js"></script>
     </head>
     <body>
         <div class="ideMain" id="user">
             <h1>Enter Username</h1>
             <p>Please enter your name: </p>
+            <form>
+                <input type="text" placeholder="Enter name here">
+                <input type="submit">
+            </form>
             <input type="text" id="input_username" placeholder="Enter name here">
             <button class="buttonGreen" value="Submit Username" onclick="enterUsername(document.getElementById('input_username').value)">Set Username</button>
             <p id="user-text"></p>

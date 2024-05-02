@@ -4,7 +4,12 @@
 // Pre-Condition: These functions accepts no arguments.
 // Post-Condition: All functions will go to their intended
 // locations.
-function goToLevel1(){
+
+let goToLevel = (level) => {
+    window.location.href = level;
+}
+
+/*function goToLevel1(){
     var url = "level1.html";
     window.location.href = url;
 }
@@ -54,4 +59,4 @@ function startProgram(){
  function goToCreateUser(){
     var url = "createUser.html";
     window.location.href = url;
- }
+ }*/

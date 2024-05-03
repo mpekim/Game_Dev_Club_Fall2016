@@ -82,6 +82,7 @@ img.winner{
     padding: 50px 50px 50px 50px;
 }
 
+/*Interactive CSS*/
 @media(prefers-reduced-motion: no-preference){
     img.winner{
         animation: winner-move infinite 5s linear;

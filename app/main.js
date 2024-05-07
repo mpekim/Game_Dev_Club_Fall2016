@@ -54,19 +54,19 @@ function enterPassword(){
 
     switch (password){
         case "1234":
-            goToLevel1();
+            goToLevel('level1.html');
             break;
         case "4567":
-            goToLevel2();
+            goToLevel('level2.html');
             break;
         case "8675":
-            goToLevel3();
+            goToLevel('level3.html');
             break;
         case "0000":
-            goToLevel4();
+            goToLevel('level4.html');
             break;
         case "5678":
-            endGame();
+            goToLevel('endGame.html');
             break;
         default:
             const errScreen = document.getElementById('hidden');

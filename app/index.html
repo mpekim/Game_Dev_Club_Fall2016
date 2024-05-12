@@ -10,27 +10,22 @@
         <script type="text/javascript" src="portal.js"></script>
     </head>
     <body>
-        <div class="ideMain gridContainer">
+        <header>
             <!--<h1>Welcome to the Re-Purposed Game Dev Club Fall 2016 Repository.</h1>
             <h2>(Actual title of game coming soon!)</h2>-->
             <!--I did not know that I can make multi-line
             comments in HTML-->
             </br>
             </br>
-            <div class="title">
-                <audio autoplay preload="auto">
-                    <source src="horse.ogg" type="audio/ogg">
-                </audio>
-                <h1>QUIZ GAME</h1>
-                <p>Click the red button to start the game. Click the green button to insert a password.</p>
-            </div>
-            </br>
-            <div class="gridItem1">
-                <button class="buttonRed" onclick="goToLevel('createUser.html')">New Game</button>
-            </div>
-            <div class="gridItem2">
-                <button class="buttonGreen" onclick="goToLevel('passwordInsert.html')">Password</button>
-            </div>
-        </div>
+            <audio autoplay preload="auto">
+                <source src="horse.ogg" type="audio/ogg">
+            </audio>
+            <h1>QUIZ GAME</h1>
+            <p>Click the red button to start the game. Click the green button to insert a password.</p>
+        </header>
+        <main>
+            <button class="buttonRed" onclick="goToLevel('createUser.html')">New Game</button>
+            <button class="buttonGreen" onclick="goToLevel('passwordInsert.html')">Password</button>
+        </main>
     </body>
 </html>

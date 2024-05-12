@@ -1,4 +1,18 @@
-.ideMain{
+header{
+    background-color: #33AABB;
+    color: #000000;
+
+    font-family: Helvetica;
+    font-weight: bold;
+
+    border: solid;
+    border-color: #000000;
+
+    text-align: center;
+    margin: auto;
+    width: 450px;
+}
+main{
     background-color: #33AABB;
     color: #000000;
 
@@ -18,13 +32,13 @@
     font-style: italic;
 }
 
-div.ideMain ol{
+main ol{
     margin: auto;
     width: 150px;
 }
 
 /*Button code.*/
-div.ideMain button.buttonRed{
+main button.buttonRed{
     background-color: #000000;
     color: #FF0000;
 
@@ -34,7 +48,7 @@ div.ideMain button.buttonRed{
 
 }
 
-div.ideMain button.buttonGreen{
+main button.buttonGreen{
     background-color: #000000;
     color: #32cd32;
 
@@ -43,7 +57,7 @@ div.ideMain button.buttonGreen{
     font-weight: bold;
 }
 
-div.ideMain button.buttonBlue{
+main button.buttonBlue{
     background-color: #000000;
     color: #0000FF;
 
@@ -53,7 +67,7 @@ div.ideMain button.buttonBlue{
 
 }
 
-div.ideMain button.buttonYellow{
+main button.buttonYellow{
     background-color: #000000;
     color: #FFFF00;
 
@@ -63,7 +77,7 @@ div.ideMain button.buttonYellow{
 
 }
 
-div.ideMain button.buttonOrange{
+main button.buttonOrange{
     background-color: #000000;
     color: #FF7700;
 

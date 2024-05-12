@@ -10,21 +10,21 @@
         <script type="text/javascript" src="portal.js"></script>
     </head>
     <body>
-        <div class="ideMain">
+        <header>
             <h1>Level 3</h1>
             <p class="fontPuzzle">Find the missing item in this image.</p>
             <img class="puzzle" src="../puzzle2.jpg" alt="Level 3 image missing.">
+        </header>
+        <main>
             <ol>
                 <li>There is no letter 'K'.</li>
                 <li>There is no letter 'C'.</li>
                 <li>There is no letter 'B'.</li>
             </ol>
-            <div class="lives" id="lives">
-                Lives Left: 
-            </div>
+            <p class="lives" id="lives">Lives Left: </p>
             <button class="buttonOrange" onclick="goToLevel('wrong.html')">1.</button>
             <button class="buttonGreen" onclick="goToLevel('level4.html')">2.</button>
             <button class="buttonYellow" onclick="goToLevel('wrong.html')">3.</button>
-        </div>
+        </main>
     </body>
 </html>

@@ -10,14 +10,16 @@
         <script type="text/javascript" src="portal.js"></script>
     </head>
     <body>
-        <!--New Issue: Change code so that lives are lost instead of single error Endgame.-->
-        <div class="ideMain" id="ideMain">
+        <header>
             <h1>GAME OVER</h1>
             <p>I'm sorry, that answer is incorrect. Please try again.</p>
+        </header>
+        <main>
             <p>Click the button to see your level password:</p>
             <button class="buttonRed" onclick="gameOverPassword()">Password</button>
             <p id="hidden"></p>
             <button class="buttonOrange" onclick="goToLevel('index.html')">Main Menu</button>
-        </div>
+        </main>
+        <!--New Issue: Change code so that lives are lost instead of single error Endgame.-->
     </body>
 </html>

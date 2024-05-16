@@ -101,6 +101,7 @@ this game possible:
 - Links to JS
 - Comments
 - Metadata
+- Semantic Tags
 
 ***PlantUML***
 - Classes

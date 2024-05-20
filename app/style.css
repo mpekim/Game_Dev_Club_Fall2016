@@ -39,7 +39,7 @@ main ol{
 }
 
 /*Button code.*/
-main button.buttonRed{
+main button.button-red{
     background-color: #000000;
     color: #FF0000;
 
@@ -58,7 +58,7 @@ main button.buttonGreen{
     font-weight: bold;
 }
 
-main button.buttonBlue{
+main button.button-blue{
     background-color: #000000;
     color: #0000FF;
 
@@ -68,7 +68,7 @@ main button.buttonBlue{
 
 }
 
-main button.buttonYellow{
+main button.button-yellow{
     background-color: #000000;
     color: #FFFF00;
 
@@ -78,7 +78,7 @@ main button.buttonYellow{
 
 }
 
-main button.buttonOrange{
+main button.button-orange{
     background-color: #000000;
     color: #FF7700;
 

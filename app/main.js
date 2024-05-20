@@ -1,7 +1,3 @@
-//const express = require('express');
-//const app = express.app;
-// Setting up express app.
-// More code to come.
 
 class User{
     constructor(username, password, lives){
@@ -80,7 +76,6 @@ function enterPassword(){
 
 function enterUsername(username){
     const player1 = new User(username, "1234", 3);
-
     const userScreen = document.getElementById('user-text');
 
     userScreen.textContent = "User Created!\n" + player1.getUsername();
@@ -102,16 +97,19 @@ function gameOverPassword(level){
             break;
         case "level4.html":
             break;
+        default:
+            const errScreen = document.getElementById('hidden');
+            errScreen.textContent = "Error: No password.";
     }
     // Use the .html file name as an argument for the generated password.
 }
 
 // Pre-Condition: This function accepts no parameters.
 // Post-Condition: Function will create two objects and test them.
-function testMode()
-{
+function testMode(){
     const bob = new User("Bob", 8675, 3);
     const steve = new User("Steve", 3091, 2);
+    
     bob.presentUser();
 
     console.log("Testing getUsername: " + bob.getUsername());

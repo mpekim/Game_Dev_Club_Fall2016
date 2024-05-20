@@ -17,13 +17,13 @@
         <main>
             <form>
                 <input type="text" placeholder="Enter name here">
-                <input type="submit">
+                <input type="submit" value="Enter Name">
             </form>
-            <input type="text" id="input_username" placeholder="Enter name here">
-            <button class="buttonGreen" value="Submit Username" onclick="enterUsername(document.getElementById('input_username').value)">Set Username</button>
+            <input type="text" id="input-username" placeholder="Enter name here">
+            <button class="button-green" value="Submit Username" onclick="enterUsername(document.getElementById('input_username').value)">Set Username</button>
             <p id="user-text"></p>
-            <button class="buttonBlue" onclick="goToLevel('level1.html')">Start</button>
-            <button class="buttonRed" onclick="goToLevel('index.html')">Return to Main Menu</button>
+            <button class="button-blue" id="l1">Start</button>
+            <button class="button-red" onclick="goToLevel('index.html')">Return to Main Menu</button>
         </main>
     </body>
 </html>

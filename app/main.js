@@ -41,7 +41,7 @@ class User{
 
 // Pre-Condition: This function accepts an int argument (the password).
 // Post-Condition: The user will be taken to the correct level based
-// on password input.ks
+// on password input.
 function enterPassword(){
     // Check to make sure that the password
     // is correct. If so, go to the appropriate

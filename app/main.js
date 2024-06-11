@@ -1,4 +1,4 @@
-
+// Main JS file.
 class User{
     constructor(username, password, lives){
         this.username = username;

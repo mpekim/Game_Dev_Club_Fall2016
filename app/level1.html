@@ -17,13 +17,15 @@
             <ol>
         </header>
         <main>
-            <ol>
-                <li>There is no item X.</li>
-                <li>There is no item Y.</li>
-                <li>There is no item Z.</li>
-            </ol>
-            <div class="lives">
-                <p id="lives" onclick="getLives()"></p>
+            <div id="options">
+                <ol>
+                    <li>There is no item X.</li>
+                    <li>There is no item Y.</li>
+                    <li>There is no item Z.</li>
+                </ol>
+            </div>
+            <div id="lives">
+                <p id="lives" onload="getLives"></p>
             </div>
             <div class="gridItem1">
                 <button class="button-red" onclick="goToLevel('wrong.html')">1.</button>

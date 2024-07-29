@@ -130,7 +130,7 @@ function createUserNotify(username){
 }
 // Function declarations.
 
-let getLives = () => {
-    let lives = document.getElementById('lives');
+function getLives() {
+    const lives = document.getElementById('lives-text');
     lives.textContent = "Lives Left: ";
 }

@@ -25,7 +25,7 @@
                 </ol>
             </div>
             <div id="lives">
-                <p id="lives" onload="getLives"></p>
+                <p id="lives-text"></p>
             </div>
             <div class="gridItem1">
                 <button class="button-red" onclick="goToLevel('wrong.html')">1.</button>
@@ -37,5 +37,9 @@
                 <button class="button-yellow" onclick="goToLevel('wrong.html')">3.</button>
             </div> 
         </main>
+        <script>
+            let lives = document.getElementById('lives-text');
+            lives.innerHTML = "Lives Left: ";
+        </script>
     </body>
 </html>

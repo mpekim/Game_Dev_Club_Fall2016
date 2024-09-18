@@ -129,8 +129,3 @@ function createUserNotify(username){
     return item;
 }
 // Function declarations.
-
-function getLives() {
-    const lives = document.getElementById('lives-text');
-    lives.textContent = "Lives Left: ";
-}

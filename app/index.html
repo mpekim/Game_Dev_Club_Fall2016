@@ -5,9 +5,6 @@
         <meta name="author" content="Mike Morley">
         
         <link href="style.css" rel="stylesheet" type="text/css" />
-
-        <script type="text/javascript" src="main.js"></script>
-        <script type="text/javascript" src="portal.js"></script>
     </head>
     <body>
         <header>
@@ -24,8 +21,10 @@
             <p>Click the red button to start the game. Click the green button to insert a password.</p>
         </header>
         <main>
-            <button class="button-red" onclick="goToLevel('createUser.html')">New Game</button>
+            <button class="button-red" id="pass">New Game</button>
             <button class="button-green" onclick="goToLevel('passwordInsert.html')">Password</button>
         </main>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="portal.js"></script>
     </body>
 </html>

@@ -4,6 +4,6 @@ let goToLevel = (level) => {
     window.location.href = level;
 }
 
-/*document.getElementById('pass').addEventListener(click, function(){
+document.getElementById('pass').addEventListener(click, function(){
     goToLevel('createUser.html')
-});*/
+});

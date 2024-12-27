@@ -78,7 +78,8 @@ function enterUsername(username){
     const player1 = new User(username, "1234", 3);
     const userScreen = document.getElementById('user-text');
 
-    userScreen.textContent = "User Created!\n" + player1.getUsername();
+    userScreen.textContent = createMessage("user-text",
+    "User Created!\n" + player1.getUsername());
 
     return player1;
 }
@@ -117,15 +118,9 @@ function testMode(){
     console.log("Testing getLives: " + bob.getLives());
 }
 
-function createPasswordError(error){
-    let item = document.createElement('p');
-    item.textContent = error;
-    return item;
-}
-
-function createUserNotify(username){
-    let item = document.createElement('h1');
-    item.textContent = username;
+function createMessage(id, message){
+    let item = document.getElementById(id);
+    item.textContent = message;
     return item;
 }
 // Function declarations.

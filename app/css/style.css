@@ -7,6 +7,7 @@ header{
 
     border: solid;
     border-color: #000000;
+    border-radius: 5px;
 
     text-align: center;
     margin: auto;
@@ -22,6 +23,7 @@ main{
 
     border: solid;
     border-color: #000000;
+    border-radius: 5px;
 
     text-align: center;
     margin: auto;
@@ -49,6 +51,10 @@ main button.button-red{
 
 }
 
+main button.button-red:active{
+    color: #770000;
+}
+
 main button.button-green{
     background-color: #000000;
     color: #32cd32;
@@ -56,6 +62,10 @@ main button.button-green{
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
+}
+
+main button.button-green:active{
+     color: #007700;
 }
 
 main button.button-blue{
@@ -97,26 +107,6 @@ img.winner{
     padding: 50px 50px 50px 50px;
 }
 
-/*Interactive CSS*/
-@media(prefers-reduced-motion: no-preference){
-    img.winner{
-        animation: winner-move infinite 5s linear;
-        border-radius: 20px;
-    }
-}
-
-@keyframes winner-move{
-    0% {
-        transform: translate(-50px);
-    }
-    50% {
-        transform: translate(50px);
-    }
-    100% {
-        transform: translate(-50px);
-    }
-}
-
 .gridContainer{
     display: grid;
     grid-template-areas:
@@ -148,4 +138,39 @@ img.winner{
 
     width: 100px;
     margin: auto;
+}
+
+/*Interactive CSS*/
+@media(prefers-reduced-motion: no-preference){
+    img.winner{
+        animation: winner-move infinite 5s linear;
+        border-radius: 20px;
+    }
+    header h1#title{
+        animation: title-pulse infinite 2s linear;
+    }
+}
+
+@keyframes winner-move{
+    0% {
+        transform: translate(-50px);
+    }
+    50% {
+        transform: translate(50px);
+    }
+    100% {
+        transform: translate(-50px);
+    }
+}
+
+@keyframes title-pulse{
+    0%{
+        color: #000000;
+    }
+    50%{
+        color: #FFFFFF;
+    }
+    100%{
+        color: #000000;
+    }
 }

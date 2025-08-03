@@ -112,6 +112,7 @@ function testMode(){
     const steve = new User("Steve", 3091, 2);
     
     bob.presentUser();
+    steve.presentUnser();
 
     console.log("Testing getUsername: " + bob.getUsername());
     console.log("Testing getPassword: " + bob.getPassword());

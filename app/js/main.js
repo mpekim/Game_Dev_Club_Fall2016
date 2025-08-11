@@ -93,10 +93,13 @@ function gameOverPassword(level){
             password.textContent = "5678";
             break;
         case "level2.html":
+            password.textContent = "";
             break;
         case "level3.html":
+            password.textContent = "";
             break;
         case "level4.html":
+            password.textContent = "";
             break;
         default:
             const errScreen = document.getElementById('hidden');

@@ -84,30 +84,6 @@ function enterUsername(username){
     return player1;
 }
 
-function gameOverPassword(level){
-    let password = document.getElementById('hidden');
-    
-    switch(level)
-    {
-        case "wrong.html":
-            password.textContent = "5678";
-            break;
-        case "level2.html":
-            password.textContent = "";
-            break;
-        case "level3.html":
-            password.textContent = "";
-            break;
-        case "level4.html":
-            password.textContent = "";
-            break;
-        default:
-            const errScreen = document.getElementById('hidden');
-            errScreen.textContent = "Error: No password.";
-    }
-    // Use the .html file name as an argument for the generated password.
-}
-
 // Pre-Condition: This function accepts no parameters.
 // Post-Condition: Function will create two objects and test them.
 function testMode(){

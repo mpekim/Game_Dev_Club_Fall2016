@@ -7,6 +7,7 @@ const server = createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World, this is my first backend project.');
+    res.end("hello");
 });
 
 server.listen(port, hostname, () => {

@@ -91,6 +91,7 @@ this game possible:
 - Classes
 - DOM (Document Object Model)
 - ES6
+- LocalStorage (Memory for Game Data)
 
 ***Bash***
 - Scripts

@@ -49,19 +49,19 @@ function enterPassword(){
     let password = document.getElementById('input_password').value;
 
     switch (password){
-        case "1234":
+        case localStorage.getItem("l1p"):
             goToLevel('level1.html');
             break;
-        case "4567":
+        case localStorage.getItem("l2p"):
             goToLevel('level2.html');
             break;
-        case "8675":
+        case localStorage.getItem("l3p"):
             goToLevel('level3.html');
             break;
-        case "0000":
+        case localStorage.getItem("l4p"):
             goToLevel('level4.html');
             break;
-        case "5678":
+        case localStorage.getItem("super"):
             goToLevel('endGame.html');
             break;
         default:

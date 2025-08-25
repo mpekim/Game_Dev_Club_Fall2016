@@ -83,7 +83,6 @@ main button.button-yellow{
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
-
 }
 
 main button.button-orange{
@@ -93,7 +92,15 @@ main button.button-orange{
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
+}
 
+input.button-green{
+    background-color: #000000;
+    color: #32cd32;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
 }
 
 img.puzzle{

@@ -53,6 +53,7 @@ function gameOverPassword(){
     // Use the .html file name as an argument for the generated password.
 }
 
+// Try to get these Event Listeners to work, or get rid of them.
 document.getElementById('new-game').addEventListener("click", function(){
     goToLevel('createUser.html')
 });

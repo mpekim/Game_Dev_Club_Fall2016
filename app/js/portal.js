@@ -25,6 +25,7 @@ let goToLevel = (level) => {
             localStorage.setItem("level", 0); 
             break;       
     }
+    
     window.location.href = level;
 }
 

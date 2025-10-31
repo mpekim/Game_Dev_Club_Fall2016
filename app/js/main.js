@@ -104,3 +104,6 @@ function createMessage(id, message){
     return item;
 }
 // Function declarations.
+const bob = new User("Bob", 8675, 4);
+let lives_counter = document.getElementById("lives-text");
+lives_counter.innerHTML = "Lives left: " + bob.getLives();

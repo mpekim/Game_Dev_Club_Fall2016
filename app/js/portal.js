@@ -1,10 +1,12 @@
 // JS file for travel between different files.
 
-localStorage.setItem("l1p", "1234");
-localStorage.setItem("l2p", "4567");
-localStorage.setItem("l3p", "8675");
-localStorage.setItem("l4p", "0000");
-localStorage.setItem("super", "5678");
+localStorage.setItem("l1p", generatePassword());
+localStorage.setItem("l2p", generatePassword());
+localStorage.setItem("l3p", generatePassword());
+localStorage.setItem("l4p", generatePassword());
+localStorage.setItem("super", generatePassword());
+
+// Original values: 1234, 4567, 8675, 0000, 5678
 
 let goToLevel = (level) => {
     // Set the level password value to current level, and then travel to page.
@@ -27,6 +29,16 @@ let goToLevel = (level) => {
     }
     
     window.location.href = level;
+}
+
+function generatePassword(){
+    let password = "";
+
+        for (var i = 0; i < 4; i++){
+            randInt = Math.floor(Math.random() * 10);
+            password = password + String(randInt);
+        }
+        return password;
 }
 
 function gameOverPassword(){

@@ -1,15 +1,15 @@
 // JS file for travel between different files.
-let l1p = generatePassword();
+/*let l1p = generatePassword();
 let l2p = generatePassword();
 let l3p = generatePassword();
 let l4p = generatePassword();
-let superPass = generatePassword();
+let superPass = generatePassword();*/
 
-localStorage.setItem("l1p", l1p);
-localStorage.setItem("l2p", l2p);
-localStorage.setItem("l3p", l3p);
-localStorage.setItem("l4p", l4p);
-localStorage.setItem("super", superPass);
+localStorage.setItem("l1p", generatePassword());
+localStorage.setItem("l2p", generatePassword());
+localStorage.setItem("l3p", generatePassword());
+localStorage.setItem("l4p", generatePassword());
+localStorage.setItem("super", generatePassword());
 
 // Original values: 1234, 4567, 8675, 0000, 5678
 

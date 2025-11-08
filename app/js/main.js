@@ -78,8 +78,8 @@ function enterUsername(username){
     const player1 = new User(username, "1234", 3);
     const userScreen = document.getElementById('user-text');
 
-    userScreen.textContent = createMessage("user-text",
-    "User Created!\n" + player1.getUsername());
+    userScreen.textContent = "User Created!\n" + player1.getUsername();
+    console.log(player1.getUsername() + player1.getLives());
 
     return player1;
 }
@@ -106,4 +106,4 @@ function createMessage(id, message){
 // Function declarations.
 const bob = new User("Bob", 8675, 4);
 let lives_counter = document.getElementById("lives-text");
-lives_counter.innerHTML = "Lives left: " + bob.getLives();
+lives_counter.innerHTML = "Lives left: " + localStorage.getItem("p1").getLives();

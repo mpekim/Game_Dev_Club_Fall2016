@@ -72,10 +72,10 @@ function gameOverPassword(){
 }
 
 // Try to get these Event Listeners to work, or get rid of them.
-document.getElementById('new-game').addEventListener("click", function(){
+/*document.getElementById('new-game').addEventListener("click", function(){
     goToLevel('createUser.html')
 });
 
 document.getElementById('password').addEventListener("click", function(){
     goToLevel('passwordInsert.html')
-});
+});*/

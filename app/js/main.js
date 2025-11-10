@@ -105,5 +105,7 @@ function createMessage(id, message){
 }
 // Function declarations.
 const bob = new User("Bob", 8675, 4);
+let player1 = localStorage.getItem("p1");
+player1 = JSON.parse(player1);
 let lives_counter = document.getElementById("lives-text");
-lives_counter.innerHTML = "Lives left: " + localStorage.getItem("p1").getLives();
+lives_counter.innerHTML = "Lives left: " + player1.lives;

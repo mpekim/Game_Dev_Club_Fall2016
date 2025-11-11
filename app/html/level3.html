@@ -19,10 +19,12 @@
                 <li>There is no letter 'C'.</li>
                 <li>There is no letter 'B'.</li>
             </ol>
-            <p class="lives" id="lives">Lives Left: </p>
-            <button class="button-orange" onclick="goToLevel('wrong.html')">1.</button>
+            <div class="lives">
+                <p id="lives-text"></p>
+            </div>
+            <button class="button-orange" onclick="loseHealth()">1.</button>
             <button class="button-green" onclick="goToLevel('level4.html')">2.</button>
-            <button class="button-yellow" onclick="goToLevel('wrong.html')">3.</button>
+            <button class="button-yellow" onclick="loseHealth()">3.</button>
         </main>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/portal.js"></script>

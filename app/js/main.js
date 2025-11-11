@@ -103,7 +103,20 @@ function createMessage(id, message){
     item.textContent = message;
     return item;
 }
+
+function loseHealth(){
+    if (player1.lives > 1)
+    {
+        player1.lives = player1.lives - 1;
+        lives_counter.innerHTML = 'Lives left: ' + player1.lives;
+    }
+    else
+    {
+        goToLevel("wrong.html");
+    }
+}
 // Function declarations.
+
 const bob = new User("Bob", 8675, 4);
 let player1 = localStorage.getItem("p1");
 player1 = JSON.parse(player1);

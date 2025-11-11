@@ -19,10 +19,12 @@
                 <li>This is the fibonacci series.</li>
                 <li>This is the factorial series.</li>
             </ol>
-            <p class="lives">Lives left:</p>
-            <button class="button-green" onclick="goToLevel('wrong.html')">1.</button>
+            <div class="lives">
+                <p id="lives-text"></p>
+            </div>
+            <button class="button-green" onclick="loseHealth()">1.</button>
             <button class="button-orange" onclick="goToLevel('endGame.html')">2.</button>
-            <button class="button-blue" onclick="goToLevel('wrong.html')">3.</button>
+            <button class="button-blue" onclick="loseHealth()">3.</button>
         </main>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/portal.js"></script>

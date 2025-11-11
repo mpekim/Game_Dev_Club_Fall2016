@@ -22,13 +22,13 @@
                 <li>The numbers are ascending.</li>
             </ol>
             <div class="lives">
-                Lives Left:
+               <p id="lives-text"></p>
                 <!--Requires VUE or other way to keep track of lives left.-->
                 <!--DOM functions also work.-->
             </div>
             <button class="button-green" onclick="goToLevel('level3.html')">1.</button>
-            <button class="button-red" onclick="goToLevel('wrong.html')">2.</button>
-            <button class="button-yellow" onclick="goToLevel('wrong.html')">3.</button>
+            <button class="button-red" onclick="loseHealth()">2.</button>
+            <button class="button-yellow" onclick="loseHealth()">3.</button>
         </main>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/portal.js"></script>

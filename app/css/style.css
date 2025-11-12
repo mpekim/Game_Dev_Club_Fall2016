@@ -76,6 +76,10 @@ main button.button-blue{
     font-weight: bold;
 }
 
+main button.button-blue:active{
+    color: #000077;
+}
+
 main button.button-yellow{
     background-color: #000000;
     color: #FFFF00;
@@ -85,6 +89,9 @@ main button.button-yellow{
     font-weight: bold;
 }
 
+main button.button-yellow:active{
+    color: #777700;
+}
 main button.button-orange{
     background-color: #000000;
     color: #FF7700;
@@ -92,6 +99,10 @@ main button.button-orange{
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
+}
+
+main button.button-orange:active{
+    color: #993300;
 }
 
 input.button-green{

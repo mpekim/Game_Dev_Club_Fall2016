@@ -1,11 +1,4 @@
 // JS file for travel between different files.
-/*let l1p = generatePassword();
-let l2p = generatePassword();
-let l3p = generatePassword();
-let l4p = generatePassword();
-let superPass = generatePassword();*/
-
-// Original values: 1234, 4567, 8675, 0000, 5678
 
 let goToLevel = (level) => {
     // Set the level password value to current level, and then travel to page.
@@ -66,6 +59,7 @@ function gameOverPassword(){
 }
 
 // Try to get these Event Listeners to work, or get rid of them.
+// They actually work despite errors. Remove comment soon.
 document.getElementById('new-game').addEventListener("click", function(){
     goToLevel('createUser.html')
 });

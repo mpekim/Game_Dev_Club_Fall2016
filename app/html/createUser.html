@@ -9,19 +9,20 @@
     </head>
     <body>
         <header>
-            <h1>Enter Username</h1>
+            <h1>ENTER USERNAME</h1>
             <p>Please enter your name: </p>
         </header>
         <main>
-            <form>
+            <!--form>
                 <input type="text" placeholder="Enter name here">
                 <input type="submit" value="Enter Name">
-            </form>
+            </form-->
+            <br>
             <input type="text" id="input-username" placeholder="Enter name here">
             <button class="button-green" value="Submit Username" onclick="localStorage.setItem('p1', JSON.stringify(enterUsername(document.getElementById('input-username').value)))">Set Username</button>
             <p id="user-text"></p>
             <button class="button-blue" onclick="goToLevel('level1.html')">Start</button>
-            <button class="button-red" onclick="goToLevel('index.html')">Return to Main Menu</button>
+            <button class="button-red" onclick="goToLevel('index.html')">Return to Main Menu</button><br><br>
         </main>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/portal.js"></script>

@@ -41,13 +41,16 @@ main ol{
 }
 
 /*Button code.*/
-main button.button-red{
-    background-color: #000000;
-    color: #FF0000;
-
+main button{
+    margin: 10px;
+    border-radius: 5px;
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
+}
+main button.button-red{
+    background-color: #000000;
+    color: #FF0000;
 }
 
 main button.button-red:active{
@@ -57,10 +60,6 @@ main button.button-red:active{
 main button.button-green{
     background-color: #000000;
     color: #32cd32;
-
-    font-family: Arial;
-    font-style: italic;
-    font-weight: bold;
 }
 
 main button.button-green:active{
@@ -70,10 +69,6 @@ main button.button-green:active{
 main button.button-blue{
     background-color: #000000;
     color: #0000FF;
-
-    font-family: Arial;
-    font-style: italic;
-    font-weight: bold;
 }
 
 main button.button-blue:active{
@@ -83,10 +78,6 @@ main button.button-blue:active{
 main button.button-yellow{
     background-color: #000000;
     color: #FFFF00;
-
-    font-family: Arial;
-    font-style: italic;
-    font-weight: bold;
 }
 
 main button.button-yellow:active{
@@ -95,10 +86,6 @@ main button.button-yellow:active{
 main button.button-orange{
     background-color: #000000;
     color: #FF7700;
-
-    font-family: Arial;
-    font-style: italic;
-    font-weight: bold;
 }
 
 main button.button-orange:active{
@@ -107,8 +94,8 @@ main button.button-orange:active{
 
 input.button-green{
     background-color: #000000;
-    color: #32cd32;
-
+    color: #32cd32;margin: 10px;
+    border-radius: 5px;
     font-family: Arial;
     font-style: italic;
     font-weight: bold;
@@ -123,7 +110,7 @@ img.winner{
     padding: 50px 50px 50px 50px;
 }
 
-.gridContainer{
+/*.gridContainer{
     display: grid;
     grid-template-areas:
     "title title title"
@@ -142,7 +129,7 @@ img.winner{
 
 .title{
     grid-area: title;
-}
+}*/
 
 .lives{
     background-color: #000000;
@@ -151,9 +138,10 @@ img.winner{
     grid-area: lives;
 
     border: solid;
+    border-radius: 5px;
 
     width: 100px;
-    margin: auto;
+    margin: 10px auto 10px auto;
 }
 
 /*Interactive CSS*/

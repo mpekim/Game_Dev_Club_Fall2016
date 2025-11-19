@@ -48,6 +48,7 @@ main button{
     font-style: italic;
     font-weight: bold;
 }
+
 main button.button-red{
     background-color: #000000;
     color: #FF0000;
@@ -83,6 +84,7 @@ main button.button-yellow{
 main button.button-yellow:active{
     color: #777700;
 }
+
 main button.button-orange{
     background-color: #000000;
     color: #FF7700;

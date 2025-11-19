@@ -16,9 +16,13 @@ using web design code (HTML, CSS, JS).
 As of 10/8/22, the repository consists of a small, yet functional
 "quiz-based" game. 
 Every answer must be correct in order to reach
-the "EndGame" (in other words, one incorrect answer ends the game).
+the "EndGame" (in other words, one incorrect answer ends the game). (Version 0.0.0)
 
-# GAME DESIGN
+As of the latest version (1.0.0), each question comes with three
+lives. This will be fixed soon to have the same number of lives
+carry over from question to question.
+
+# GAME DESIGN (Version 0.0.0)
 
 As of right now, I plan on the game being as a *text-based adventure*, using HTML files to traverse between levels.
 There are two forms of data within the game:

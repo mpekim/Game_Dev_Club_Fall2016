@@ -2,6 +2,7 @@
 - [Welcome](#welcome)
 - [Game Design](#game-design)
 - [Programming Techniques](#programming-techniques)
+- [Version History](#version-history)
 
 # WELCOME
 
@@ -117,3 +118,21 @@ this game possible:
 ***Docker***
 - Containers
 - Dockerfiles
+
+# VERSION HISTORY
+
+## Version 0.0.0
+- This is the most basic, functional version of the game.
+While technically playable, there is no transfer of data
+within pages; users are also only placeholders and do not
+technically "work".
+- Passwords are coded to single values and are easier to
+remember once obtained.
+
+## Version 1.0.0
+- Adds functionality to the User class, and allows for
+transfer of data across levels.
+- Passwords are now randomized and are refreshed every
+time at the Game Over screen.
+
+## Version 2.0.0

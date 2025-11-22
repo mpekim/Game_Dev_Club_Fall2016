@@ -136,3 +136,4 @@ transfer of data across levels.
 time at the Game Over screen.
 
 ## Version 2.0.0
+- Notes for version coming soon!

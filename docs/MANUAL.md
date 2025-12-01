@@ -128,12 +128,18 @@ within pages; users are also only placeholders and do not
 technically "work".
 - Passwords are coded to single values and are easier to
 remember once obtained.
+- Health: only "1 life", Game Over ensues after a single
+wrong answer.
 
 ## Version 1.0.0
 - Adds functionality to the User class, and allows for
 transfer of data across levels.
 - Passwords are now randomized and are refreshed every
 time at the Game Over screen.
+- Health: Lives transfer between levels but reset to
+3 each time.
 
 ## Version 2.0.0
-- Notes for version coming soon!
+- User health will transfer across levels, allowing for
+a set amount of health across the entire game.
+- Question pool has been increased.

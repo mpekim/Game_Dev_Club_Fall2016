@@ -38,8 +38,7 @@ function gameOverPassword(){
     let level = localStorage.getItem("level");
     console.log(level);
     
-    switch(level)
-    {
+    switch(level){
         case "1":
             password.textContent = localStorage.getItem("l1p");
             break;

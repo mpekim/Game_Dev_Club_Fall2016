@@ -107,6 +107,7 @@ function createMessage(id, message){
 function loseHealth(){
     if (player1.lives > 1){
         player1.lives = player1.lives - 1;
+        localStorage.setItem("p1", JSON.stringify(player1));
         lives_counter.innerHTML = 'Lives left: ' + player1.lives;
     }
     else{

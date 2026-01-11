@@ -75,7 +75,25 @@ function enterPassword(){
 }
 
 function enterUsername(username){
-    const player1 = new User(username, "1234", 3);
+    const difficulty = document.getElementById('difficulty').value;
+    console.log(difficulty);
+    let lives = 3;
+
+    switch (difficulty){
+        case "Easy":
+            lives = 3;
+            break;
+        case "Medium":
+            lives = 2;
+            break;
+        case "Hard":
+            lives = 1;
+            break;
+        default:
+            lives = 3;
+    }
+
+    const player1 = new User(username, "1234", lives);
     const userScreen = document.getElementById('user-text');
 
     userScreen.textContent = "User Created!\n" + player1.getUsername();

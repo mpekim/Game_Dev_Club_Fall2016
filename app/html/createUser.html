@@ -21,6 +21,11 @@
             <br>
             <input type="text" id="input-username" placeholder="Enter name here">
             <button class="button-blue" value="Submit Username" onclick="localStorage.setItem('p1', JSON.stringify(enterUsername(document.getElementById('input-username').value)))">Set Username</button>
+            <select id="difficulty">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
             <p id="user-text"></p>
             <button class="button-green" onclick="goToLevel('level1.html')">Start</button>
             <button class="button-red" onclick="goToLevel('index.html')">Return to Main Menu</button><br><br>

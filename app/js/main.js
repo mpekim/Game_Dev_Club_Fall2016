@@ -136,6 +136,10 @@ function loseHealth(){
 
 const bob = new User("Bob", 8675, 4);
 let player1 = localStorage.getItem("p1");
-player1 = JSON.parse(player1);
 let lives_counter = document.getElementById("lives-text");
-lives_counter.innerHTML = "Lives left: " + player1.lives;
+
+player1 = JSON.parse(player1);
+
+if (lives_counter){
+    lives_counter.innerHTML = "Lives left: " + player1.lives;
+}

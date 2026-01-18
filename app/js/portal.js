@@ -17,6 +17,9 @@ let goToLevel = (level) => {
             break;
         case "index.html":
             localStorage.setItem("level", 0); 
+            break;
+        case "quit":
+            window.close();
             break;       
     }
     

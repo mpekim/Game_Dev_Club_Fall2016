@@ -38,38 +38,52 @@ The classes shown below show the level structure of the game.
 So far it is intended to be a "one-way street" - the simplest
 style of game.
 
+## Version 1.0.0 Game Design
+
 ```plantuml
 
 class Level1{
-    +goToLevel1()
+    +goToLevel2()
     +goToWrong()
     
     -password: int
 }
 
 class Level2{
-    +goToLevel2()
-    +goToWrong()
-
-    -password: int
-}
-
-class Level3{
     +goToLevel3()
     +goToWrong()
 
     -password: int
 }
 
-class Level4{
+class Level3{
     +goToLevel4()
-    +goToWrong()ks
+    +goToWrong()
+
+    -password: int
+}
+
+class Level4{
+    +goToEndGame()
+    +goToWrong()
 
     -password: int
 }
 
 class EndGame{
-    +goToEndGame()
+    +goToMainMenu()
+}
+
+class MainMenu{
+
+}
+
+class CreateUser{
+
+}
+
+class EnterPassword{
+
 }
 
 Level1 --right--> Level2
@@ -78,8 +92,24 @@ Level2 --right--> Level3
 Level2 --up--> Wrong
 Level3 --right--> Level4
 Level3 --up--> Wrong
-Level4 --right--> EndGame
+Level4 --down--> EndGame
 Level4 --up--> Wrong
+
+EndGame --left--> MainMenu
+MainMenu --left--> CreateUser
+MainMenu --up-->EnterPassword
+CreateUser --up--> Level1
+Wrong --down-->MainMenu
+EnterPassword --up--> Level1
+EnterPassword --up--> Level2
+EnterPassword --up--> Level3
+EnterPassword --up--> Level4
+EnterPassword --up--> EndGame
+
+note left of Wrong
+Single life: a single wrong answer
+on any level will end the game.
+end note
 ```
 # PROGRAMMING TECHNIQUES
 

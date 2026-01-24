@@ -76,7 +76,8 @@ function enterPassword(){
 
 function enterUsername(username){
     const difficulty = document.getElementById('difficulty').value;
-    console.log(difficulty);
+    console.log(difficulty); 
+    // Test, remove if no longer needed.
     let lives = 3;
 
     switch (difficulty){

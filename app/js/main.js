@@ -111,6 +111,7 @@ function testMode(){
     
     bob.presentUser();
     steve.presentUnser();
+    // Test code.
 
     console.log("Testing getUsername: " + bob.getUsername());
     console.log("Testing getPassword: " + bob.getPassword());

@@ -109,6 +109,7 @@ EnterPassword --up--> EndGame
 note left of Wrong
 Single life: a single wrong answer
 on any level will end the game.
+(assuming single life rules apply)
 end note
 ```
 # PROGRAMMING TECHNIQUES
